@@ -180,6 +180,8 @@ return [
 
         Collective\Html\HtmlServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+
+        Maatwebsite\Excel\ExcelServiceProvider::class,
     ],
 
     /*
@@ -232,6 +234,8 @@ return [
         'Form' => Collective\Html\FormFocade::class,
         'Html' => Collective\Html\HtmlFocade::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ],
 
 ];
